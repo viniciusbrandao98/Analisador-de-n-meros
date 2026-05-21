@@ -17,6 +17,7 @@ h1 {
 
 section {
     background: rgb(241, 238, 238);
+    width: 100%;
     width: 500px;
     padding: 15px;
     border-radius: 10px;
@@ -28,6 +29,15 @@ select#flista {
     width: 150px;
 }
 
-section {
-
+button {
+    padding: 5px;
 }
+
+button:hover {
+    background-color: beige;
+}
+
+button:active {
+    scale: 0.95;
+}
+
